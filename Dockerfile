@@ -7,4 +7,4 @@ COPY *.go ./
 # Build
 RUN CGO_ENABLED=0 GOOS=linux go build -o /worker-request-register
 # Run
-CMD ["/worker-request-login"]
+CMD ["/worker-request-register"]
